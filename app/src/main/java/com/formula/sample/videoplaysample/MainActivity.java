@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         vc.addVideoView((VideoView) findViewById(R.id.videoView));
         vc.addVideoFile("sample.mp4");
         im = (ImageView) findViewById(R.id.imageView);
-        im.setImageURI(ResourcesUtil.getResUri("bg1.png", ResourcesUtil.RES_TYPE_DRAWABLE));
+        im.setImageURI(ResourcesUtil.getResUri("bg.png", ResourcesUtil.RES_TYPE_DRAWABLE));
         bt = (Button) findViewById(R.id.button);
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
